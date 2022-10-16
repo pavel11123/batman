@@ -209,14 +209,23 @@ transform: rotate(90deg);
 	position: relative;
 	margin-top: -50px;
 	margin-bottom: 20px;
-	width: 100%;
-	animation: poster 1.2s forwards;
+	/*width: 100%;
+	*/animation: poster 1.2s forwards;
+	padding: 49% 0px 100% 100%;
 }
 
 .sidebar__poster img{
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
 }
 
 @keyframes poster {
